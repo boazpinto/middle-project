@@ -7,7 +7,7 @@ body{
 .full{
     /* position:relative; */
     height:105px;
-    width:980px;
+    width:1500px;
     /* border: 1px solid; */
     background-image: linear-gradient( rgb(144,144,144), rgb(164,164,164));
 }
@@ -44,12 +44,15 @@ ul {
     margin: 0px;
     padding:0;
 }
-li > a{
+.top-menu{
     color: white;
     text-decoration: none;
     font-family: arial;
     font-size: 15px;
     font-weight: bold;
+    position:relative;
+    top:-5px;
+  
 
 }
 .logo , .home{
@@ -59,9 +62,44 @@ li > a{
     /* top:-25px;
     right:-50; */
     left: 760px;
-    bottom:-130px;
+    bottom:-125px;
 }
 .home{
     left: 720px;
     bottom:-80px;
+}
+.menu_sep{
+
+    height:20px;
+    width:5px;
+    margin-left: 10px;
+}
+.menu-block{
+    position: relative;
+    padding-bottom: 20px;
+}
+.drop{
+    position:absolute;
+    background-color:  rgb(164,164,164);
+    top:35px;
+    right:15px;
+    border-left: 2px solid white;
+    width:110px;
+    display:none;
+}
+.drop > a{
+    display:block;
+    color: white;
+    text-decoration: none;
+    font-family: arial;
+    font-size: 15px;
+    font-weight: bold;
+    padding:5px;
+}
+a:hover{
+    color:blue;
+
+}
+.menu-block:hover > .drop{
+    display:block;
 }
