@@ -281,8 +281,9 @@ footer>nav>ul{
 .main-contact1, .main-contact2{
     direction:rtl;
     margin-left:auto;
-    width:300px;
+    /* width:300px; */
     height:100pxl;
+    
  
 }
 .flex{
@@ -296,27 +297,30 @@ footer>nav>ul{
     height:25px;
 }
 .column{
-    border:1px solid;
-    border-top-right-radius: 5%;
+    border:1px solid  rgba(120, 120, 120, 0.70);
+    border-top-right-radius: 10%;
     background-image: url("/images/images/cube_bg.png");
     background-repeat: no-repeat;
     background-size: cover;
+    padding-right:10px;
 }
 .main-contact2{
     margin-top:  2px;
     margin-right:  137px;
 }
 .tiny-font{
-    font-size: 13px;
+    font-size: 15px;
 }
 .flex1{
     justify-content: space-between;
     flex-wrap: wrap;
     padding:0 20px;
     width:400px;
+    margin-top:5px;
 }
 .form{
     width:45%;
+    margin-bottom: 5px;
 }
 submit{
     width:60px;
@@ -326,8 +330,11 @@ submit{
     margin-right: 200px;
 }
 .column2{
-width:300px;
+flex-grow: 2;
 }
 .blue-font{
     color:blue;
+}
+.column3{
+    margin: 0 30px 5px 0;  
 }
