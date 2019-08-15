@@ -268,3 +268,15 @@ footer>nav>ul{
 #black:hover{
     text-decoration: underline;
 }
+.img-about1{
+
+    background-image: url("/images/images/side_menu_sprite.png");
+    width:125px;
+    height:50px;
+    border-top: 1px solid  rgba(120, 120, 120, 0.70);
+    margin-top: 50px;
+
+}
+.main-about{
+    direction:rtl;
+}
