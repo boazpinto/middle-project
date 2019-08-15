@@ -268,15 +268,66 @@ footer>nav>ul{
 #black:hover{
     text-decoration: underline;
 }
-.img-about1{
+.img-contact1{
 
     background-image: url("/images/images/side_menu_sprite.png");
     width:125px;
-    height:50px;
+    height:40px;
     border-top: 1px solid  rgba(120, 120, 120, 0.70);
-    margin-top: 50px;
-
 }
-.main-about{
+.img-contact1>p{
+    margin:8px 20px;
+}
+.main-contact1, .main-contact2{
     direction:rtl;
+    margin-left:auto;
+    width:300px;
+    height:100pxl;
+ 
+}
+.flex{
+    display:flex;
+    margin-top: 50px;
+    /* height:70px; */
+}
+.line{
+ 
+    margin-right: 10px;
+    height:25px;
+}
+.column{
+    border:1px solid;
+    border-top-right-radius: 5%;
+    background-image: url("/images/images/cube_bg.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.main-contact2{
+    margin-top:  2px;
+    margin-right:  137px;
+}
+.tiny-font{
+    font-size: 13px;
+}
+.flex1{
+    justify-content: space-between;
+    flex-wrap: wrap;
+    padding:0 20px;
+    width:400px;
+}
+.form{
+    width:45%;
+}
+submit{
+    width:60px;
+    height: 20px;
+    background-color: blue;
+    color:white;
+    margin-right: 200px;
+}
+.column2{
+width:300px;
+}
+.blue-font{
+    color:blue;
 }
