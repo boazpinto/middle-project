@@ -328,3 +328,6 @@ submit{
 .column3>p{
     margin:0;
 }
+input:invalid{
+    border: 1px solid red;
+}

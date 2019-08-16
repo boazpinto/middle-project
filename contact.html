@@ -154,13 +154,13 @@
                 <!-- form to leave contact information -->
                 <form class="flex flex1">
                     <label class="label" for="fname" class="tiny-font form">*שם פרטי</label>
-                    <input id="fname" type="text" class="form">
+                    <input id="fname" type="text" class="form" required>
                     <label class="label" for="lname" class="tiny-font form">*שם משפחה</label>
-                    <input id="lname" type="text" class="form">
+                    <input id="lname" type="text" class="form" required>
                     <label class="label"  for="phone" class="tiny-font form">*טלפון</label>
-                    <input id="phone" type="text" class="form">
+                    <input id="phone" type="text" class="form" required pattern="^(\(?\+?[0-9]*\)?)?[0-9_\- \(\)]*$">
                     <label class="label"  type="email" for="email" class="tiny-font form">*E-mail</label>
-                    <input id="email" type="text" class="form">
+                    <input id="email" type="text" class="form" required pattern="[a-z0-9-=*/+&^%$#!A-Z_]{1-1000}@[a-z0-9-=*/+&^%$#!A-Z_]{1-1000}.[a-z0-9-=*/+&^%$#!A-Z_]{1-1000}"> 
                     <textarea name="" id="" cols="38" rows="4"></textarea>
                     <submit>שלח</submit>
                 </form>
