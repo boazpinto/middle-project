@@ -9,22 +9,23 @@
     <link rel="stylesheet" href="style.css">
     <script src="script.js"></script>
 </head>
-
+<!-- on load of document, call the function myFunction to replace the picture
+in the home page every 3 seconds -->
 <body onload="myFunction();">
 
-    <div class="full"></div>
-    <div class="view">
-        <div class="header">
-            <div class="search">
+    <div class="full"></div> <!-- full view gray header -->
+    <div class="view"> <!-- centered view of all page with margines -->
+        <div class="header"> <!--the header, contains search area, menu and logo  -->
+            <div class="search"><!--dearch area  -->
                 <a class="margin-left" href="">English</a>
                 <input type="text" placeholder="רשום מילות חיפוש">
                 <button id="button-search"></button>
             </div>
-            <div class="clearfix"></div>
-            <span>
+            <div class="clearfix"></div><!--clearfix to the float  -->
+            <span><!--logo  -->
                 <img class="logo" src="\images\images\paz_logo.png" alt="">
             </span>
-            <nav>
+            <nav><!-- top menu -->
                 <ul class="flex-container">
                         <li >
 
@@ -133,6 +134,7 @@
             </nav>
 
         </div>
+        <!--the body, containig blocks with pictures and linkes  -->
         <div class="flex-container main1">
             <div class="pic1">
                 <div class="large-img">
@@ -247,6 +249,7 @@
     </div>
     <footer>
         <nav>
+            <!-- footer fixed containing links -->
             <ul class="flex-container">
                 <li class="footer-li">
 

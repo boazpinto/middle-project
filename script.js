@@ -1,11 +1,14 @@
+//   every 3 seconds replacing the picture in the home page
 var myVar;
 var i = 0;
 
+//   this function setting an interval of 3 second and call the function
+//   changePic at the end of each interval
 function myFunction() {
 
     myVar = setInterval(changePic, 3000);
 }
-
+//    this function replaces the picture in home page in an order
 function changePic() {
     
     if (i == 0) {
