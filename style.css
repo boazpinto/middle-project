@@ -3,6 +3,7 @@
 }
 body{
     margin:0;
+    font-family: Arial;
 }
 .full{
 
@@ -16,6 +17,8 @@ body{
     top: -105px;
     width:900px;
     margin: 0 auto;
+    font-family: arial;
+    color:rgb(87, 87, 87);
 }
 .flex-container{
     display: flex;
@@ -55,23 +58,15 @@ ul {
 .top-menu{
     color: white;
     text-decoration: none;
-    font-family: arial;
     font-size: 15px;
     font-weight: bold;
     position:relative;
     top:-5px;
-  
-
-}
-.logo , .home {
-    position: absolute;
 }
 .logo{
-
+    position: absolute;
     left: 760px;
-
 }
-
 .menu_sep{
 
     height:20px;
@@ -94,37 +89,30 @@ ul {
 }
 .drop > a {
     display:block;
-    color: white;
     text-decoration: none;
-    font-family: arial;
     font-size: 15px;
     font-weight: bold;
     padding:5px;
 }
 a:hover{
     color:blue;
-
 }
 .menu-block:hover > .drop{
     display:block;
 }
-.pic1,.pic2,.pic3{
+.pic1{
     width:33%;
-
 }
-
 .main1{
 margin-top: 40px;
 }
 .large-img{
     position: relative;
     width:100%;
- 
 }
 .image1{
     border-bottom-right-radius: 25px; 
-    width:97%;
-  
+    width:97%; 
 }
 .parag-over-pic{
     position: absolute;
@@ -134,17 +122,14 @@ margin-top: 40px;
     width:80%;
     height:100px;
     color:white;
-    font-family: arial;
     font-size: 13px;
     text-align: right;
     border-bottom-right-radius: 25px; 
-
     padding: 10px 10px 0 0;
 }
 .parag-over-pic > h4{
     margin:0;
     font-size: 14px;
-
 }
 .parag-over-pic > p{
     margin-top: 7px;
@@ -157,41 +142,32 @@ margin-top: 40px;
     margin-top:20px;
  }
  .search> a{
-    color:white;
-    font-family: arial;
     font-size: 13px;
     text-decoration: none;
-
  }
  .margin-left{
      margin-left: 10px;
      font-size: 12px;
      font-weight: bold;
      color: white;
-     font-family: arial;
  }
  .search{
      display:flex;
      justify-content: flex-end;
     align-items: flex-end;
-
  }
-
     .clearfix::after {
         content: "";
         clear: both;
         display: table;
       }
- 
  .white{
     color:white;
-    font-family: arial;
     font-size: 13px;  
     float:left; 
     padding-left:5pxl;
  }
  .second-pointer{
-
      display:none;
  }
  .white:hover > .second-pointer{
@@ -203,7 +179,7 @@ margin-top: 40px;
  .small-img{
      margin-top:10px;
      width:97%;
- text-align: right;
+    text-align: right;
      height:216px;
      border:1px solid rgb(200,200,200);
      border-top-right-radius: 25px;
@@ -214,7 +190,6 @@ margin-top: 40px;
     line-height: 34px;
     font-size: 14px;
     font-weight: bold;
-    font-family: arial;
     color: rgb(87, 87, 87);
     padding-right:15px;
     margin : 0 0 15px 0;
@@ -223,14 +198,13 @@ margin-top: 40px;
     margin:0;
  }
 .inside{
- align-items: center;
- justify-content: space-between;
- padding: 0 20px;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 20px;
 }
 .small-nav>ul>li>a , .small-img>.white{
     color: rgb(87, 87, 87);
     font-size: 14px;
-    font-family: arial;
     line-height: 1.8;
 }
 .white:hover{
@@ -246,9 +220,10 @@ footer{
     height:38px;
     width:100%;
     background-image: linear-gradient( rgb(144,144,144), rgb(164,164,164));
-position: fixed;
-bottom:0px;
-align-items: center;
+    position: fixed;
+    bottom:0px;
+    align-items: center;
+
 }
 footer>nav>ul{
     margin:0 280px;
@@ -258,7 +233,7 @@ footer>nav>ul{
     margin-top: 5;
 }
 .footer-li>a{
-    font-size: 14px;
+    font-size: 12px;
     font-weight: normal;
 
 }
@@ -281,15 +256,15 @@ footer>nav>ul{
 .main-contact1, .main-contact2{
     direction:rtl;
     margin-left:auto;
-    /* width:300px; */
+
     height:100pxl;
+    margin-top: 30px;
     
  
 }
 .flex{
     display:flex;
-    margin-top: 50px;
-    /* height:70px; */
+
 }
 .line{
  
@@ -302,7 +277,10 @@ footer>nav>ul{
     background-image: url("/images/images/cube_bg.png");
     background-repeat: no-repeat;
     background-size: cover;
-    padding-right:10px;
+    padding-right:20px;
+    padding-left:20px;
+    padding-bottom: 20px;
+    
 }
 .main-contact2{
     margin-top:  2px;
@@ -315,26 +293,38 @@ footer>nav>ul{
     justify-content: space-between;
     flex-wrap: wrap;
     padding:0 20px;
-    width:400px;
+    width:300px;
     margin-top:5px;
 }
 .form{
-    width:45%;
+    width:65%;
     margin-bottom: 5px;
 }
+.label{
+    width:35%;
+}
 submit{
-    width:60px;
+    width:80px;
     height: 20px;
-    background-color: blue;
     color:white;
     margin-right: 200px;
+    margin-top: 10px;
+    text-align: center;
+    border-top-right-radius: 20%;
+    background-image: linear-gradient( rgb(142, 177, 241),rgb(37, 5, 128));
 }
 .column2{
-flex-grow: 2;
+    width:450px;
 }
 .blue-font{
-    color:blue;
+    color:rgb(31, 100, 204);
 }
 .column3{
-    margin: 0 30px 5px 0;  
+    margin: 0 50px 0px 0;  
+}
+.bold{
+    font-weight: bold;
+}
+.column3>p{
+    margin:0;
 }
