@@ -137,7 +137,7 @@ margin-top: 40px;
     line-height: 1;
 }
 #button-search {
-    background: url("/images/images/search_button.png") no-repeat;
+    background: url("images/images/search_button.png") no-repeat;
     width:25px;
     height: 21px;
     margin-top:20px;
@@ -184,7 +184,7 @@ margin-top: 40px;
      height:216px;
      border:1px solid rgb(200,200,200);
      border-top-right-radius: 25px;
-     background-image: url("/images/images/cube_bg.png");
+     background-image: url("images/images/cube_bg.png");
      background-repeat: round;
  }
  .small-img > h3{
@@ -246,7 +246,7 @@ footer>nav>ul{
 }
 .img-contact1{
 
-    background-image: url("/images/images/side_menu_sprite.png");
+    background-image: url("images/images/side_menu_sprite.png");
     width:125px;
     height:40px;
     border-top: 1px solid  rgba(120, 120, 120, 0.70);
@@ -275,7 +275,7 @@ footer>nav>ul{
 .column{
     border:1px solid  rgba(120, 120, 120, 0.70);
     border-top-right-radius: 10%;
-    background-image: url("/images/images/cube_bg.png");
+    background-image: url("images/images/cube_bg.png");
     background-repeat: no-repeat;
     background-size: cover;
     padding-right:20px;
