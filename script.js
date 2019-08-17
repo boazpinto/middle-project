@@ -18,7 +18,7 @@ function myFunction() {
 function changePic() {
     document.getElementById("change").src =file[i];
     i++;
-    if (i==4){
+    if (i==file.length){
         i=0;
     }
 }
